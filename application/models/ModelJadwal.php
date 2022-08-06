@@ -116,40 +116,40 @@ class ModelJadwal extends CI_Model {
 		}
     }
 
-	public function cek_jadwal()
-	{
-		$hari=$this->input->post('hari');
-		$jam=$this->input->post('jam');
-		$smt=$this->input->post('smt');
-		$kelas=$this->input->post('kelas');
-		$thpel=$this->input->post('thpel');
-		$lab=$this->input->post('lab');
-		$text 	= "SELECT * FROM jadwal 
-					WHERE hari_kode='$hari'
-					and jam_kode='$jam'
-					and lab='$lab'
-					-- and thpel='$thpel'
-					-- and smt='$smt'
-					";
-		$q = $this->db->query($text); 
-		if($q->num_rows()>0)
-		{
-			foreach($q->result() as $k)
-			{
-				$hari = $this->app_model->find_hari($k->hari_kode);
-				$jam = $this->app_model->find_jam($k->jam_kode);
-				$hasil ='Error, Jam '.$jam.' Hari: '.$hari.' sudah ada, ubah jam dan hari';
-			}
+	// public function cek_jadwal()
+	// {
+	// 	$hari=$this->input->post('hari');
+	// 	$jam=$this->input->post('jam');
+	// 	$smt=$this->input->post('smt');
+	// 	$kelas=$this->input->post('kelas');
+	// 	$thpel=$this->input->post('thpel');
+	// 	$lab=$this->input->post('lab');
+	// 	$text 	= "SELECT * FROM jadwal 
+	// 				WHERE hari_kode='$hari'
+	// 				and jam_kode='$jam'
+	// 				and lab='$lab'
+	// 				-- and thpel='$thpel'
+	// 				-- and smt='$smt'
+	// 				";
+	// 	$q = $this->db->query($text); 
+	// 	if($q->num_rows()>0)
+	// 	{
+	// 		foreach($q->result() as $k)
+	// 		{
+	// 			$hari = $this->app_model->find_hari($k->hari_kode);
+	// 			$jam = $this->app_model->find_jam($k->jam_kode);
+	// 			$hasil ='Error, Jam '.$jam.' Hari: '.$hari.' sudah ada, ubah jam dan hari';
+	// 		}
 
-			$hasil = $hasil;
-		}
-		else
-		{
-			$hasil = "Sukses, Jadwal Belum ada dan lajutkan ke penyimpanan";
-		}
+	// 		$hasil = $hasil;
+	// 	}
+	// 	else
+	// 	{
+	// 		$hasil = "Sukses, Jadwal Belum ada dan lajutkan ke penyimpanan";
+	// 	}
 
-		return $hasil;
-	}
+	// 	return $hasil;
+	// }
 
 	public function tampilkan_jadwal() {
 		$smt=$this->input->post('smt');

@@ -56,6 +56,18 @@ class ModelInventori extends CI_Model {
 		return $query;
 	}
 
+	public function select_count_kategori() 
+	{
+// 		SELECT country,COUNT(*)
+// FROM author      
+// GROUP BY country;
+
+		$this->db->select('kategori, count(*) as jumlah');
+		$this->db->from($this->table);
+		$this->db->group_by('kategori');
+		return $this->db->get()->result_array();
+	}
+
 	public function check_dir($path){
         if (!file_exists($path)) {
             mkdir($path, 0777, true);
