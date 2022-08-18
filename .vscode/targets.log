@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Fri Aug 05 21:44:26 2022
+# Make data base, printed on Sun Aug 14 09:57:36 2022
 
 # Variables
 
@@ -23,11 +23,11 @@ CONEMUARGS2 =
 # environment
 LC_ALL = C
 # environment
-CONEMUPID = 2532
+CONEMUPID = 15240
 # environment
-CONEMUWORKDIR = C:\mobileappsihalal\SIHALAL-MOBILE-APPS-main
+CONEMUWORKDIR = C:\laragon\www\melati-ummi
 # environment
-CONEMUHWND = 0x003E0532
+CONEMUHWND = 0x000203D0
 # environment
 USERPROFILE = C:\Users\rizqi
 # environment
@@ -35,7 +35,7 @@ ARCHITECTURE = 64
 # environment
 LOCALAPPDATA = C:\Users\rizqi\AppData\Local
 # environment
-CONEMUSERVERPID = 13084
+CONEMUSERVERPID = 9828
 # environment
 USER_DIR = C:\laragon\usr
 # environment
@@ -63,7 +63,7 @@ VERBOSE-OUTPUT = 0
 # environment
 CONEMUTASK = <Startup>
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_11396_BNQCEMBFEIMOACUX
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_11856_ONCHRKRBTKRQOVTY
 # environment
 FPS_BROWSER_USER_PROFILE_STRING = Default
 # environment
@@ -79,7 +79,7 @@ VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # environment
 GIT_INSTALL_ROOT = C:\laragon\bin\cmder\..\git
 # environment
-VSCODE_CODE_CACHE_PATH = C:\Users\rizqi\AppData\Roaming\Code\CachedData\3b889b090b5ad5793f524b5d1d39fda662b96a2a
+VSCODE_CODE_CACHE_PATH = C:\Users\rizqi\AppData\Roaming\Code\CachedData\da76f93349a72022ca4670c1b84860304616aaa2
 # environment
 LANG = C
 # default
@@ -123,7 +123,7 @@ ALIASES = C:\laragon\bin\cmder\config\user-aliases.cmd
 # automatic
 @F = $(notdir $@)
 # environment
-VSCODE_PID = 11396
+VSCODE_PID = 11856
 # environment
 CONEMUPALETTE = Monokai
 # automatic
@@ -135,7 +135,7 @@ CONEMUPALETTE = Monokai
 # environment
 CONEMUDIR = C:\laragon\bin\cmder\vendor\conemu-maximus5
 # environment
-CONEMUDRAWHWND = 0x000105FA
+CONEMUDRAWHWND = 0x0001041E
 # environment
 VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
 # environment
@@ -249,9 +249,9 @@ TEMP = C:\Users\rizqi\AppData\Local\Temp
 # environment
 TERM = cygwin
 # environment
-VSCODE_IPC_HOOK = \\.\pipe\a7bfa0a6acdd64f54329721034e8c77b-1.69.2-main-sock
+VSCODE_IPC_HOOK = \\.\pipe\a7bfa0a6acdd64f54329721034e8c77b-1.70.0-main-sock
 # environment
-CONEMUBACKHWND = 0x000105F8
+CONEMUBACKHWND = 0x0001041C
 # default
 .RECIPEPREFIX := 
 # automatic
@@ -356,6 +356,6 @@ GNUmakefile:
 # strcache performance: lookups = 25 / hit rate = 12%
 # hash-table stats:
 # Load=22/8192=0%, Rehash=0, Collisions=0/25=0%
-# Finished Make data base on Fri Aug 05 21:44:26 2022
+# Finished Make data base on Sun Aug 14 09:57:36 2022
 
  

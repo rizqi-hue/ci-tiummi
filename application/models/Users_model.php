@@ -96,7 +96,7 @@ class Users_model extends CI_Model {
 				'id' => $this->input->post('id'),
 				'user_id' => $this->input->post('user_id'),
 				'password' => $this->input->post('password'),
-				'level' => 'super admin',
+				'level' => 'superadmin',
 				'namalengkap' => $this->input->post('namalengkap'),
 				'nim' => '',
 			);
@@ -111,7 +111,7 @@ class Users_model extends CI_Model {
 			$data = array(
 				'user_id' => $this->input->post('user_id'),
 				'password' => $this->input->post('password'),
-				'level' => 'super admin',
+				'level' => 'superadmin',
 				'namalengkap' => $this->input->post('namalengkap'),
 				'nim' => '',
 			);

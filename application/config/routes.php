@@ -83,7 +83,7 @@ $route['kelas']['options'] = 'api_admin/kelas/select';
 $route['kelas']['post'] = 'api_admin/kelas/store';
 $route['kelas/(:any)']['get'] = 'api_admin/kelas/show/$1';
 $route['kelas/(:any)']['delete'] = 'api_admin/kelas/delete/$1';
-$route['kelas/(:any)']['options'] = 'api_admin/dosen/delete/$1';
+$route['kelas/(:any)']['options'] = 'api_admin/kelas/delete/$1';
 
 //jurusan
 $route['jurusan']['get'] = 'api_admin/jurusan/select';
@@ -207,6 +207,26 @@ $route['survei']['post'] = 'api_admin/survei/store';
 $route['survei/(:any)']['get'] = 'api_admin/survei/show/$1';
 $route['survei/(:any)']['delete'] = 'api_admin/survei/delete/$1';
 $route['survei/(:any)']['options'] = 'api_admin/survei/delete/$1';
+
+//kelas
+$route['chat']['get'] = 'api_admin/whatsapp/select';
+$route['chat']['options'] = 'api_admin/whatsapp/select';
+$route['chat']['post'] = 'api_admin/whatsapp/store';
+$route['chat/(:any)']['get'] = 'api_admin/whatsapp/show/$1';
+$route['chat/(:any)']['delete'] = 'api_admin/whatsapp/delete/$1';
+$route['chat/(:any)']['options'] = 'api_admin/whatsapp/delete/$1';
+
+
+// informasi
+$route['news']['get'] = 'api_admin/informasi/select';
+$route['news']['options'] = 'api_admin/informasi/select';
+$route['news_kategori']['get'] = 'api_admin/informasi/select_kategori';
+$route['news_kategori']['options'] = 'api_admin/informasi/select_kategori';
+$route['news']['post'] = 'api_admin/informasi/store';
+$route['news/(:any)']['get'] = 'api_admin/informasi/show/$1';
+$route['news_cari/(:any)']['get'] = 'api_admin/informasi/show_slug/$1';
+$route['news/(:any)']['delete'] = 'api_admin/informasi/delete/$1';
+$route['news/(:any)']['options'] = 'api_admin/informasi/delete/$1';
 
 $route['default_controller'] = 'person';
 $route['404_override'] = '';
