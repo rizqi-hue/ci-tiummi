@@ -15,8 +15,8 @@ class ModelMateri extends CI_Model {
 		$this->db->select('berkas.*, dosen.nama as nama_dosen, matakul.matakul');
 		$this->db->from($this->table);
 		
-		$this->db->join('dosen', 'dosen.nidn = berkas.nidn');
-		$this->db->join('matakul', 'matakul.kode = berkas.kode');
+		$this->db->join('dosen', 'dosen.nidn = berkas.nidn', 'left');
+		$this->db->join('matakul', 'matakul.kode = berkas.kode', 'left');
 		$this->db->order_by('id', 'DESC');
 	}
 

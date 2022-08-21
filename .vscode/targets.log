@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Sun Aug 14 09:57:36 2022
+# Make data base, printed on Thu Aug 18 22:38:52 2022
 
 # Variables
 
@@ -23,11 +23,11 @@ CONEMUARGS2 =
 # environment
 LC_ALL = C
 # environment
-CONEMUPID = 15240
+CONEMUPID = 12732
 # environment
 CONEMUWORKDIR = C:\laragon\www\melati-ummi
 # environment
-CONEMUHWND = 0x000203D0
+CONEMUHWND = 0x00010404
 # environment
 USERPROFILE = C:\Users\rizqi
 # environment
@@ -35,7 +35,7 @@ ARCHITECTURE = 64
 # environment
 LOCALAPPDATA = C:\Users\rizqi\AppData\Local
 # environment
-CONEMUSERVERPID = 9828
+CONEMUSERVERPID = 2452
 # environment
 USER_DIR = C:\laragon\usr
 # environment
@@ -63,7 +63,7 @@ VERBOSE-OUTPUT = 0
 # environment
 CONEMUTASK = <Startup>
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_11856_ONCHRKRBTKRQOVTY
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_14032_BBEKLAUBEJIPXMBG
 # environment
 FPS_BROWSER_USER_PROFILE_STRING = Default
 # environment
@@ -79,7 +79,7 @@ VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # environment
 GIT_INSTALL_ROOT = C:\laragon\bin\cmder\..\git
 # environment
-VSCODE_CODE_CACHE_PATH = C:\Users\rizqi\AppData\Roaming\Code\CachedData\da76f93349a72022ca4670c1b84860304616aaa2
+VSCODE_CODE_CACHE_PATH = C:\Users\rizqi\AppData\Roaming\Code\CachedData\6d9b74a70ca9c7733b29f0456fd8195364076dda
 # environment
 LANG = C
 # default
@@ -101,7 +101,7 @@ ONEDRIVE = C:\Users\rizqi\OneDrive
 # makefile
 CURDIR := c:/laragon/www/melati-ummi
 # environment
-APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
 # automatic
 *D = $(patsubst %/,%,$(patsubst %\,%,$(dir $*)))
 # environment
@@ -123,7 +123,7 @@ ALIASES = C:\laragon\bin\cmder\config\user-aliases.cmd
 # automatic
 @F = $(notdir $@)
 # environment
-VSCODE_PID = 11856
+VSCODE_PID = 14032
 # environment
 CONEMUPALETTE = Monokai
 # automatic
@@ -135,7 +135,7 @@ CONEMUPALETTE = Monokai
 # environment
 CONEMUDIR = C:\laragon\bin\cmder\vendor\conemu-maximus5
 # environment
-CONEMUDRAWHWND = 0x0001041E
+CONEMUDRAWHWND = 0x0001042C
 # environment
 VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
 # environment
@@ -167,7 +167,7 @@ MAKELEVEL := 0
 # default
 MAKE = $(MAKE_COMMAND)
 # environment
-PATH = C:\Users\rizqi\AppData\Local\Yarn\config\global\node_modules\.bin;C:\Users\rizqi\AppData\Roaming\npm;C:\Users\rizqi\AppData\Roaming\Composer\vendor\bin;;C:\laragon\bin\laragon\utils;C:\laragon\bin\mysql\mysql-5.7.24-winx64\bin;C:\laragon\bin\php\php-7.4.16-Win32-vc15-x64;C:\laragon\bin\composer;C:\laragon\bin\apache\httpd-2.4.35-win64-VC15\bin;C:\laragon\bin\redis\redis-x64-3.2.100;C:\laragon\bin\nodejs\node-v16.14.2-win-x64;C:\laragon\bin\yarn\bin;C:\laragon\bin\nginx\nginx-1.16.0;C:\laragon\bin\notepad++;C:\laragon\bin\telnet;C:\laragon\bin\ngrok;C:\laragon\bin\git\bin;C:\laragon\bin\git\cmd;C:\laragon\bin\git\usr\bin;C:\laragon\bin\git\mingw64\bin;C:\laragon\bin;C:\laragon\usr\bin;C:\laragon\bin\putty;C:\laragon\bin\cmder\bin;C:\laragon\bin\cmder\vendor\conemu-maximus5\ConEmu\Scripts;C:\laragon\bin\cmder\vendor\conemu-maximus5;C:\laragon\bin\cmder\vendor\conemu-maximus5\ConEmu;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\xampp\php;C:\Program Files\Java\jdk1.8.0_271;C:\Program Files\Java\jre1.8.0_271;C:\Program Files (x86)\Yarn\bin\;C:\ProgramData\chocolatey\bin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\PuTTY\;C:\Program Files\OpenJDK\openjdk-8u282-b08\bin;C:\ProgramData\ComposerSetup\bin;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files\nodejs\;C:\Program Files\Go\bin;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;C:\Program Files\dotnet\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\protoc-21.4-win64\bin;C:\Users\rizqi\AppData\Local\Microsoft\WindowsApps;C:\Users\rizqi\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\rizqi\AppData\Roaming\Composer\vendor\bin;C:\platform-tools;C:\Users\rizqi\AppData\Local\Yarn\bin;C:\Users\rizqi\AppData\Local\Android\Sdk\platform-tools;C:\Users\rizqi\AppData\Local\GitHubDesktop\bin;C:\Users\rizqi\AppData\Roaming\npm;C:\Users\rizqi\go\bin;C:\Program Files\Azure Data Studio\bin;C:\Users\rizqi\.dotnet\tools;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\share\vim\vim74;C:\laragon\bin\cmder\;
+PATH = C:\Users\rizqi\AppData\Local\Yarn\config\global\node_modules\.bin;C:\Users\rizqi\AppData\Roaming\npm;C:\Users\rizqi\AppData\Roaming\Composer\vendor\bin;;C:\laragon\bin\laragon\utils;C:\laragon\bin\mysql\mysql-5.7.24-winx64\bin;C:\laragon\bin\php\php-7.4.16-Win32-vc15-x64;C:\laragon\bin\composer;C:\laragon\bin\apache\httpd-2.4.35-win64-VC15\bin;C:\laragon\bin\redis\redis-x64-3.2.100;C:\laragon\bin\nodejs\node-v16.14.2-win-x64;C:\laragon\bin\yarn\bin;C:\laragon\bin\nginx\nginx-1.16.0;C:\laragon\bin\notepad++;C:\laragon\bin\telnet;C:\laragon\bin\ngrok;C:\laragon\bin\git\bin;C:\laragon\bin\git\cmd;C:\laragon\bin\git\usr\bin;C:\laragon\bin\git\mingw64\bin;C:\laragon\bin;C:\laragon\usr\bin;C:\laragon\bin\putty;C:\laragon\bin\cmder\bin;C:\laragon\bin\cmder\vendor\conemu-maximus5\ConEmu\Scripts;C:\laragon\bin\cmder\vendor\conemu-maximus5;C:\laragon\bin\cmder\vendor\conemu-maximus5\ConEmu;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\xampp\php;C:\Program Files\Java\jdk1.8.0_271;C:\Program Files\Java\jre1.8.0_271;C:\Program Files (x86)\Yarn\bin\;C:\ProgramData\chocolatey\bin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\PuTTY\;C:\Program Files\OpenJDK\openjdk-8u282-b08\bin;C:\ProgramData\ComposerSetup\bin;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files\nodejs\;C:\Program Files\Go\bin;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;C:\Program Files\dotnet\;C:\protoc-21.4-win64\bin;C:\Users\rizqi\AppData\Local\Microsoft\WindowsApps;C:\Users\rizqi\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\rizqi\AppData\Roaming\Composer\vendor\bin;C:\platform-tools;C:\Users\rizqi\AppData\Local\Yarn\bin;C:\Users\rizqi\AppData\Local\Android\Sdk\platform-tools;C:\Users\rizqi\AppData\Local\GitHubDesktop\bin;C:\Users\rizqi\AppData\Roaming\npm;C:\Users\rizqi\go\bin;C:\Program Files\Azure Data Studio\bin;C:\Users\rizqi\.dotnet\tools;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\share\vim\vim74;C:\laragon\bin\cmder\;
 # environment
 COMPUTERNAME = DESKTOP-P139H47
 # default
@@ -249,9 +249,9 @@ TEMP = C:\Users\rizqi\AppData\Local\Temp
 # environment
 TERM = cygwin
 # environment
-VSCODE_IPC_HOOK = \\.\pipe\a7bfa0a6acdd64f54329721034e8c77b-1.70.0-main-sock
+VSCODE_IPC_HOOK = \\.\pipe\a7bfa0a6acdd64f54329721034e8c77b-1.70.1-main-sock
 # environment
-CONEMUBACKHWND = 0x0001041C
+CONEMUBACKHWND = 0x0001042A
 # default
 .RECIPEPREFIX := 
 # automatic
@@ -356,6 +356,6 @@ GNUmakefile:
 # strcache performance: lookups = 25 / hit rate = 12%
 # hash-table stats:
 # Load=22/8192=0%, Rehash=0, Collisions=0/25=0%
-# Finished Make data base on Sun Aug 14 09:57:36 2022
+# Finished Make data base on Thu Aug 18 22:38:52 2022
 
  

@@ -84,7 +84,6 @@ class Mahasiswa_model extends CI_Model {
 			$data = array(
 				'id' => $this->input->post('id'),
 				'nim' => $this->input->post('nim'),
-				'Badgenumb' => '-',
 				'nama' => $this->input->post('nama'),
 				'tlahir' => $this->input->post('tlahir'),
 				'tgllahir' => $this->input->post('tgllahir'),
@@ -103,7 +102,6 @@ class Mahasiswa_model extends CI_Model {
 		} else {
 			$data = array(
 				'nim' => $this->input->post('nim'),
-				'Badgenumb' => '-',
 				'nama' => $this->input->post('nama'),
 				'tlahir' => $this->input->post('tlahir'),
 				'tgllahir' => $this->input->post('tgllahir'),
@@ -118,7 +116,6 @@ class Mahasiswa_model extends CI_Model {
 				$data = array(
 					'id' => $this->db->insert_id(),
 					'nim' => $this->input->post('nim'),
-					'Badgenumb' => '-',
 					'nama' => $this->input->post('nama'),
 					'tlahir' => $this->input->post('tlahir'),
 					'tgllahir' => $this->input->post('tgllahir'),

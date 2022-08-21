@@ -10,6 +10,7 @@ class Users_model extends CI_Model {
         header("Access-Control-Allow-Methods: *");
         header("Access-Control-Allow-Headers: Content-Type, Content-Length, Accept-Encoding");
         header('Content-Type: application/json');
+
 	}
 		
 	var $table = 'users';
