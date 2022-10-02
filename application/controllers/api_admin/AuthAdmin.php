@@ -19,23 +19,23 @@ class AuthAdmin extends CI_Controller {
 	}
 
     function rest_config($server){
-		// $config =  array(
-		// 	'server' => $this->API.'/'.$server,
-		// 	'api_name' => 'SIAK-API-KEY',
-		// 	'api_key' => 'SILATY5u0v7ZqFYUrFKaOPIbrSBlNHuaGk8Hp',
-		// 	'http_user' => 'silat-ti',
-		// 	'http_pass' => 'SILATY5u0v7ZqFYUrFKaOPIbrSBlNHuaGk8Hp',
-		// 	'http_auth' => 'digest'
-		// );
-
-        $config =  array(
+		$config =  array(
 			'server' => $this->API.'/'.$server,
 			'api_name' => 'SIAK-API-KEY',
-			'api_key' => 'WEBMAIL147b3597yd08678af167e9b1455',
-			'http_user' => 'mail@ummi.ac.id',
-			'http_pass' => '3m41lTea',
+			'api_key' => 'SILATY5u0v7ZqFYUrFKaOPIbrSBlNHuaGk8Hp',
+			'http_user' => 'silat-ti',
+			'http_pass' => '9H72trgJGuq0Jjzr',
 			'http_auth' => 'digest'
 		);
+
+        // $config =  array(
+		// 	'server' => $this->API.'/'.$server,
+		// 	'api_name' => 'SIAK-API-KEY',
+		// 	'api_key' => 'WEBMAIL147b3597yd08678af167e9b1455',
+		// 	'http_user' => 'mail@ummi.ac.id',
+		// 	'http_pass' => '3m41lTea',
+		// 	'http_auth' => 'digest'
+		// );
 
 		return $this->rest->initialize($config);
 	}
