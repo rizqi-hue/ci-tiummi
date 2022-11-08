@@ -17,6 +17,20 @@ class ModelMateri extends CI_Model {
 		
 		$this->db->join('dosen', 'dosen.nidn = berkas.nidn', 'left');
 		$this->db->join('matakul', 'matakul.kode = berkas.kode', 'left');
+
+		if (isset($_GET['filter'])) {
+			$filter = json_decode($this->input->get('filter'));
+			if (isset($filter->q)) {
+				$q = $filter->q;
+				if ($q != '' || $q != null) {
+					$this->db->like('berkas.nama', $q);
+					$this->db->or_like('matakul.matakul', $q);
+					$this->db->or_like('dosen.nama', $q);  // Produces: WHERE name != 'Joe' OR id > 50
+				}
+			}
+			
+		}
+
 		$this->db->order_by('id', 'DESC');
 	}
 
@@ -62,7 +76,7 @@ class ModelMateri extends CI_Model {
 		$base64imagestring = json_decode($_POST['imagestring']);
 		// foreach($base64imagestring as $index => $baseimage) {
             $mime_type =  explode('/', mime_content_type($base64imagestring[0]->src))[1];
-			$fileName =  time().'-'.$this->input->post('nama').'.'.$mime_type;
+			$fileName =  time().'.'.$mime_type;
 
 			$base64Image = trim($base64imagestring[0]->src);
 			$base64Image = str_replace('data:image/png;base64,', '', $base64Image);
@@ -94,7 +108,7 @@ class ModelMateri extends CI_Model {
     public function insert()
     {
 		if ($this->input->post('id')) {
-            $filepath = $this->input->post('image');
+            $filepath = $this->input->post('berkas');
 			if ($this->input->post('imagestring') != null && $this->input->post('imagestring') != '') {
 				unlink($filepath);
 				$filepath = $this->insert_image($this->input->post('nama'));

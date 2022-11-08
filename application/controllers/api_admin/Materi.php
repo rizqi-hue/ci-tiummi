@@ -41,5 +41,27 @@ class Materi extends CI_Controller {
         return $this->output->set_status_header(200)
             ->set_content_type('application/json')
             ->set_output(json_encode(['data' => $data, 'message' => 'success']));
-    }    
+    }
+
+    public function download($id) {
+        $data = $this->ModelMateri->get_where(['id' => $id]);
+
+        if ($data) {
+            if (file_exists($data->berkas)) {
+                force_download($data->berkas, NULL);
+
+                return $this->output->set_status_header(200)
+                    ->set_content_type('application/json')
+                    ->set_output(json_encode(['data' => $data, 'message' => 'success']));
+            } else {
+                return $this->output->set_status_header(200)
+                ->set_content_type('application/json')
+                ->set_output(json_encode(['data' => $data, 'message' => 'Berkas tidak ada']));
+            }
+        } else {
+            return $this->output->set_status_header(400)
+            ->set_content_type('application/json')
+            ->set_output(json_encode(['data' => $data, 'message' => 'Berkas tidak ada']));
+        }
+    }   
 }

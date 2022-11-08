@@ -83,7 +83,7 @@ class ModelInventori extends CI_Model {
 
 		$base64imagestring = json_decode($_POST['imagestring']);
 		// foreach($base64imagestring as $index => $baseimage) {
-			$fileName =  time().'-'.$this->input->post('kode').'.jpg';
+			$fileName =  time().'.jpg';
 
 			$base64Image = trim($base64imagestring[0]->src);
 			$base64Image = str_replace('data:image/png;base64,', '', $base64Image);
